@@ -1,0 +1,460 @@
+.menu {
+    background-color:#171717;
+    width:1580px;
+	height:2890px; 
+	position:absolute;
+	top: 0px;
+	left: 0px;
+  }
+  .logo {
+    width:122px;
+	height:107px;
+	position:absolute;
+	left: 200px;
+	top:-10px;
+	background-repeat:no-repeat;
+	background-size:cover;
+  }
+  .list { 
+	color:rgb(255, 255, 255);
+	width:131px;
+	height:24px;
+	position:absolute;
+	left:380px;
+	top:38px;
+	font-family: 'Viga';font-size: 30px;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+.funci { 
+	color:rgb(255, 255, 255);
+	width:131px;
+	height:24px;
+	position:absolute;
+	left:550px;
+	top:38px;
+	font-family: 'Viga';font-size: 30px;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+.contato { 
+	color:rgb(255, 255, 255);
+	width:131px;
+	height:24px;
+	position:absolute;
+	left:730px;
+	top:38px;
+	font-family: 'Viga';font-size: 30px;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+.entrar { 
+	color:rgb(255, 255, 255);
+	width:131px;
+	height:24px;
+	position:absolute;
+	left:1300px;
+	top:38px;
+	font-family: 'Viga';font-size: 30px;
+	text-align:left;
+	font-size:20px;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+.borda_cadastrar { 
+	background-color:#5271FF;
+	width:55px;
+	height:40px;
+	position:absolute;
+	left:1400px;
+	top:30px;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 10px;
+}
+.lupa { 
+	width:35px;
+	height:35px;
+	position:absolute;
+	left:1410px;
+	top:32px;
+	background-image:url(images/lupa.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.catalogo_de_jogos {
+    color: rgba(255, 255, 255, 1);
+    width: 715px;
+    height: 92px;
+    text-align: center;
+    letter-spacing: 0;
+    left: 432px;
+    top: 254px;
+    position: absolute;
+    font-family: 'Viga';
+    font-size: 60px;
+	font-weight: bold;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+  }
+  .gta_capa {
+    width: 314px;
+    height: 401px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_gta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 104px;
+    top: 503px;
+    position: absolute;
+  }
+  .god_1 {
+    width: 315px;
+    height: 401px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_god.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 461px;
+    top: 503px;
+    position: absolute;
+  }
+  .capa_spi {
+    width: 314px;
+    height: 401px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_spider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 810px;
+    top: 503px;
+    position: absolute;
+  }
+  .elden_ring {
+    width: 314px;
+    height: 401px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_elder.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 1161px;
+    top: 503px;
+    position: absolute;
+  }
+  .dark_souls_2 {
+    width: 314px;
+    height: 401px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_dark2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 104px;
+    top: 1162px;
+    position: absolute;
+  }
+  .dark_souls_1 {
+    width: 312px;
+    height: 401px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_dark1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 461px;
+    top: 1162px;
+    position: absolute;
+  }
+  .sekiro {
+    width: 312px;
+    height: 401px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_sekiro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 810px;
+    top: 1162px;
+    position: absolute;
+  }
+  .the_last_of_us {
+    width: 312px;
+    height: 401px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_thelast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 1161px;
+    top: 1162px;
+    position: absolute;
+  }
+  .fifa {
+    width: 314px;
+    height: 401px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_fifa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 104px;
+    top: 1828px;
+    position: absolute;
+  }
+  .red_dead_2 {
+    width: 312px;
+    height: 401px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_red.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 461px;
+    top: 1828px;
+    position: absolute;
+  }
+  .detroit {
+    width: 312px;
+    height: 401px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_detroit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 810px;
+    top: 1828px;
+    position: absolute;
+  }
+  .dark_souls_3 {
+    width: 312px;
+    height: 401px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/cp_dark3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 1161px;
+    top: 1828px;
+    position: absolute;
+  }
+  .borda_fim { 
+	background-color:#262626;
+	width:1580px;
+	height:350px;
+	position:absolute;
+	left:1px;
+	top:2500px;
+	border-color: black;
+	border-width: 2px;
+}
+.logo2 { 
+	width:200px;
+	height:200px;
+	position:absolute;
+	left: 200px;
+	top:2520px;
+	background-image:url(images/log.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.tex_fim { 
+	color:#375af5;
+	width:900px;
+	height:300px;
+	position:absolute;
+	left:50px;
+	text-align-last: center;
+	top:2550px;
+	font-family: 'Viga';font-size: 30px;
+	text-align:left;
+	font-size:30px;
+	font-weight: bold;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+.tex_fim2 { 
+	color:#ffffff;
+	width:800px;
+	height:10px;
+	position:absolute;
+	left:455px;
+	top:2630px;
+	font-family: 'Viga';font-size: 30px;
+	text-align:left;
+	font-size:18px;
+	font-weight: bold;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+.tex_fim3 { 
+	color:#ffffff;
+	width:800px;
+	height:10px;
+	position:absolute;
+	left:455px;
+	top:2680px;
+	font-family: 'Viga';font-size: 30px;
+	text-align:left;
+	font-size:18px;
+	font-weight: bold;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+.tex_fim4 { 
+	color:#ffffff;
+	width:800px;
+	height:10px;
+	position:absolute;
+	left:455px;
+	top:2730px;
+	font-family: 'Viga';font-size: 30px;
+	text-align:left;
+	font-size:18px;
+	font-weight: bold;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+.tex_fim5 { 
+	color:#375af5;
+	width:800px;
+	height:50px;
+	position:absolute;
+	left:700px;
+	top:2550px;
+	font-family: 'Viga';font-size: 30px;
+	text-align:left;
+	font-size:30px;
+	font-weight: bold;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+.tex_fim6 { 
+	color:#ffffff;
+	width:800px;
+	height:10px;
+	position:absolute;
+	left:730px;
+	top:2630px;
+	font-family: 'Viga';font-size: 30px;
+	text-align:left;
+	font-size:18px;
+	font-weight: bold;
+	letter-spacing:0;
+	text-shadow: 0.1em 0.1em 0.2em black
+}
+.rel { 
+	width:25px;
+	height:25px;
+	position:absolute;
+	left:698px;
+	top:2630px;
+	background-image:url(images/relo.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.ema { 
+	width:25px;
+	height:25px;
+	position:absolute;
+	left:698px;
+	top:2715px;
+	background-image:url(images/email.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.tel { 
+	width:25px;
+	height:25px;
+	position:absolute;
+	left:698px;
+	top:2670px;
+	background-image:url(images/tele.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+  .btn:hover{
+    color: #101dd9;
+    transition: 0.3s all;
+}
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+form{
+  margin-top: 820px;
+  margin-left: 130px;
+}
+.envia{
+  font-family: 'Times New Roman', Times, serif;
+  color:rgba(255, 255, 255);
+  padding-left: 18px;
+  font-size: 15px;
+  width: 80px;
+  height: 30px;
+  background-color:#5271FF;
+  border-color: rgba(255, 255, 255);
+  border-radius: 15px;
+  display:flex;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+textarea{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  background-color: #282a2b;
+  color: white;
+  border-color: #5271FF;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  resize:none;
+  width: 250px;
+  outline: none;
+  overflow: hidden;
+}
+::placeholder{
+padding: 9px;
+}  

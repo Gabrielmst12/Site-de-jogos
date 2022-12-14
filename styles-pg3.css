@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-left: 5%;
+} 
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #5271FF;
+    margin-left: 10%;
+} 
+
+#check{
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #5271FF;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #5271FF;
+    border-radius: 5px;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #5271FF;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #E0E0F8;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #5271FF;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.botao:hover {
+    background: #101dd9;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
+
+.botao, select{
+    cursor: pointer;
+}
+
+.HOM {
+    font-size: 1.2em;
+    background: #5271FF;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.btn:hover{
+    color: #ffffff;
+    transition: 0.3s all;
+}
+#titulo {
+    font-family: sans-serif;
+    color: #ffffff;
+    margin-left: 5%;
+} 
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #5271FF;
+    margin-left: 10%;
+} 
+
+#check{
+    display: inline-block;
+}
+
+fieldset {
+    border: 0;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #5271FF;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #5271FF;
+    border-radius: 5px;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #5271FF;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+
+.campo select option {
+    padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #E0E0F8;
+}
+
+.botao {
+    font-size: 1.2em;
+    background: #5271FF;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.HOM {
+    font-size: 1.2em;
+    background: #5271FF;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+input[
+    type=email ]{
+        padding: 0.2em;
+    border: 1px solid #5271FF;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    
+        width: 415px;
+        margin-bottom: 1.2em;
+    color:#5271FF;
+    display: block;
+    color:#5271FF;
+    }
+
+    .email{
+        color: #ffffff;
+    }
+    
+    .pix{
+        font-family: sans-serif;
+    color: #ffffff;
+    margin-left: -5%;
+    }
+    .qrcode {
+        margin-left: 15%;
+    }
+
+    .Cbarra{
+        margin-left: -9%;
+        
+    }
+    .texto01
+    {
+        margin-left: 10%;
+    }
+
+    .hidden
+    {
+        display: none;
+    }
+
+    .fundo { 
+        background-color:#171717;
+        width:1580px;
+        height:930px; 
+        position:absolute;
+        top: 0px;
+        left: 0px;
+    }
+    
+    .logo { 
+        width:122px;
+        height:107px;
+        position:absolute;
+        left: 200px;
+        top:-10px;
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .list { 
+        color:rgb(255, 255, 255);
+        width:131px;
+        height:24px;
+        position:absolute;
+        left:380px;
+        top:38px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:20px;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .funci { 
+        color:rgb(255, 255, 255);
+        width:131px;
+        height:24px;
+        position:absolute;
+        left:550px;
+        top:38px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:20px;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .contato { 
+        color:rgb(255, 255, 255);
+        width:131px;
+        height:24px;
+        position:absolute;
+        left:730px;
+        top:38px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:20px;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .entrar { 
+        color:#5271FF;
+        width:131px;
+        height:24px;
+        position:absolute;
+        left:1300px;
+        top:38px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:20px;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .borda_cadastrar { 
+        background-color:#5271FF;
+        width:55px;
+        height:40px;
+        position:absolute;
+        left:1400px;
+        top:30px;
+        border-color: black;
+        border-width: 2px;
+        border-radius: 10px;
+    }
+    .lupa { 
+        width:35px;
+        height:35px;
+        position:absolute;
+        left:1410px;
+        top:32px;
+        background-image:url(images/lupa.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .borda_fim { 
+        background-color:#262626;
+        width:1580px;
+        height:102px;
+        position:absolute;
+        left:2px;
+        top:1px;
+        border-color: black;
+        border-width: 2px;
+    }
+    .logo2 { 
+        width:200px;
+        height:200px;
+        position:absolute;
+        left: 200px;
+        top:700px;
+        background-image:url(images/log.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .tex_fim { 
+        color:#375af5;
+        width:900px;
+        height:10px;
+        position:absolute;
+        left:50px;
+        text-align-last: center;
+        top:720px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:30px;
+        font-weight: bold;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .tex_fim2 { 
+        color:#ffffff;
+        width:800px;
+        height:10px;
+        position:absolute;
+        left:455px;
+        top:780px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:18px;
+        font-weight: bold;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .tex_fim3 { 
+        color:#ffffff;
+        width:800px;
+        height:10px;
+        position:absolute;
+        left:455px;
+        top:830px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:18px;
+        font-weight: bold;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .tex_fim4 { 
+        color:#ffffff;
+        width:800px;
+        height:10px;
+        position:absolute;
+        left:455px;
+        top:880px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:18px;
+        font-weight: bold;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .tex_fim5 { 
+        color:#375af5;
+        width:800px;
+        height:10px;
+        position:absolute;
+        left:700px;
+        top:720px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:30px;
+        font-weight: bold;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .tex_fim6 { 
+        color:#ffffff;
+        width:800px;
+        height:10px;
+        position:absolute;
+        left:730px;
+        top:780px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:18px;
+        font-weight: bold;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .rel { 
+        width:25px;
+        height:25px;
+        position:absolute;
+        left:698px;
+        top:780px;
+        background-image:url(images/relo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .ema { 
+        width:25px;
+        height:25px;
+        position:absolute;
+        left:698px;
+        top:820px;
+        background-image:url(images/email.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .tel { 
+        width:25px;
+        height:25px;
+        position:absolute;
+        left:698px;
+        top:860px;
+        background-image:url(images/tele.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .btn:hover{
+        color: #101dd9;
+        transition: 0.3s all;
+    }
+    a{
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .tex_cont { 
+        color:#375af5;
+        width:900px;
+        height:10px;
+        position:absolute;
+        left:550px;
+        top:150px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:35px;
+        font-weight: bold;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .tex_cont2 { 
+        color:#ffffff;
+        width:900px;
+        height:10px;
+        position:absolute;
+        left:350px;
+        top:220px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:35px;
+        font-weight: bold;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .tex_cont3 { 
+        color:#ffffff;
+        width:800px;
+        height:10px;
+        position:absolute;
+        left:730px;
+        top:380px;
+        font-family: 'Viga';font-size: 30px;
+        text-align:left;
+        font-size:25px;
+        font-weight: bold;
+        letter-spacing:0;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
+    .rel2 { 
+        width:40px;
+        height:40px;
+        position:absolute;
+        left:670px;
+        top:375px;
+        background-image:url(images/relo.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .ema2 { 
+        width:40px;
+        height:40px;
+        position:absolute;
+        left:670px;
+        top:490px;
+        background-image:url(images/email.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .tel2 { 
+        width:40px;
+        height:40px;
+        position:absolute;
+        left:670px;
+        top:430px;
+        background-image:url(images/tele.png);
+        background-repeat:no-repeat;
+        background-size:cover;
+    }
+    .Cadastro { 
+        
+        width:100px;
+        height:102px;
+        margin-block-end: 10%;
+        left:1110px;
+        top:100000px;
+        border-color: black;
+        border-width: 2px;
+    }
+
+    .third {
+        border-color: #375af5;
+        color: #fff;
+        box-shadow: 0 0 40px 40px #375af5 inset, 0 0 0 0 #db3434;
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out;
+        height:60px;
+        width:150px;
+        margin-left: 12%;
+        margin-right: 10%;
+      }
+
